@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{33cc62af-323e-4fb0-8d86-05307079e0dc}">
+		<property name="name">
+			<value>PartyManipulation</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cc9ba13e-a437-44e2-a920-690aa882651f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b7e978ae-e19c-464d-b86f-0da5165fedcf}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b7e978ae-e19c-464d-b86f-0da5165fedcf}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

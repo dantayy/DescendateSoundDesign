@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{f33e6d20-92e2-407b-9776-5176b7b08826}">
+		<property name="name">
+			<value>InventoryManipulation</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cc9ba13e-a437-44e2-a920-690aa882651f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{be3a5a1b-c6b9-4967-a5a4-32ad7771edad}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{be3a5a1b-c6b9-4967-a5a4-32ad7771edad}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

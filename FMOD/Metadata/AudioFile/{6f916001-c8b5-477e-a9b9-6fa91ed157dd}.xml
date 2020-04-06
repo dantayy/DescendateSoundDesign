@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{6f916001-c8b5-477e-a9b9-6fa91ed157dd}">
+		<property name="assetPath">
+			<value>BagMove.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.48179138321995463</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a53b1076-d4b2-42d3-aada-0f577fc68608}</destination>
+		</relationship>
+	</object>
+</objects>

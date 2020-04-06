@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{78e5779f-afe8-4ea0-86bd-1c10784e4e99}">
+		<property name="name">
+			<value>DoorSwinging</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cc9ba13e-a437-44e2-a920-690aa882651f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d20213eb-cdc3-4348-a2be-caff6932175b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d20213eb-cdc3-4348-a2be-caff6932175b}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

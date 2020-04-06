@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{86405633-0e1c-4fea-af25-ea90259d9ff1}">
+		<property name="assetPath">
+			<value>SmithyFire.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>14.491678004535148</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a53b1076-d4b2-42d3-aada-0f577fc68608}</destination>
+		</relationship>
+	</object>
+</objects>

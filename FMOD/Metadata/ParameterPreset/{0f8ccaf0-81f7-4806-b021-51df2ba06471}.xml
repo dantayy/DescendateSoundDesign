@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{0f8ccaf0-81f7-4806-b021-51df2ba06471}">
+		<property name="name">
+			<value>TavernChatter</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cc9ba13e-a437-44e2-a920-690aa882651f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{13ff4d0d-dbc8-4d4c-b146-32a61e909adb}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{13ff4d0d-dbc8-4d4c-b146-32a61e909adb}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

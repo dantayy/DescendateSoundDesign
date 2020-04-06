@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{ba8aa4ae-36fe-44a1-abe2-94bb70fefa09}">
+		<property name="assetPath">
+			<value>TavernNoise.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>16.541519274376416</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a53b1076-d4b2-42d3-aada-0f577fc68608}</destination>
+		</relationship>
+	</object>
+</objects>
