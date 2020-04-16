@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="Workspace" id="{2de21dad-f7da-46d6-8b90-698e3ddc867e}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../../../Documents/dungeon-crawler-dating-sim/dcds/Assets/Audio/FMODBuild</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{7b8640de-fbc9-4144-b905-07563210acdf}</destination>
 		</relationship>
