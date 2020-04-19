@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{cbe7d41f-db0d-49e1-9efa-2e22ccb32787}">
 		<property name="name">
-			<value>C1Exclamation</value>
+			<value>CharacterInteraction</value>
 		</property>
 		<relationship name="folder">
 			<destination>{cc9ba13e-a437-44e2-a920-690aa882651f}</destination>
@@ -12,6 +12,18 @@
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{5dc50579-b364-4c46-85dc-3bc03283fa8f}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Neutral</value>
+			<value>Angry</value>
+			<value>Sad</value>
+			<value>Happy</value>
+		</property>
 		<property name="initialValue">
 			<value>0</value>
 		</property>

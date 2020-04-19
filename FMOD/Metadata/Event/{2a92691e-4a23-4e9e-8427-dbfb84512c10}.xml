@@ -82,7 +82,7 @@
 			<destination>{6281e783-9abd-4022-ae2c-71d8c39b4242}</destination>
 		</relationship>
 		<relationship name="preset">
-			<destination>{c7185966-a413-4d49-8034-a2b03668400a}</destination>
+			<destination>{4eb35980-bc17-46bc-af12-6e6fe94196e1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{451cb06e-c77e-4d32-afe7-d2eb4817c536}">
@@ -158,7 +158,7 @@
 	<object class="SpatialiserEffect" id="{56cad940-bdf1-42c0-bff9-01d6c26440b0}" />
 	<object class="AutomationCurve" id="{2392be1f-32d0-4aaf-8b53-ccc3a72795e7}">
 		<relationship name="parameter">
-			<destination>{c7185966-a413-4d49-8034-a2b03668400a}</destination>
+			<destination>{4eb35980-bc17-46bc-af12-6e6fe94196e1}</destination>
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{2ff1994a-2de5-4aab-ac90-aa2217ba7df6}</destination>
