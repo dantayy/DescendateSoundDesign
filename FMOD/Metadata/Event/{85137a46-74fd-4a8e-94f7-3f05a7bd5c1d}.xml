@@ -56,7 +56,7 @@
 			<destination>{175c84cb-ed05-492c-8cd6-d326864d86b4}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{eedb2853-ee33-4bfd-bf86-c98e026c901c}</destination>
+			<destination>{c98b1ae0-d33b-4bed-8a6e-4ecb5ae77fa3}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7e0891a2-15d8-4255-9d74-e2771368723f}" />
@@ -108,6 +108,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b5ab20fb-1b62-4e59-89d7-e474edd50254}">
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{5eb21b57-9ec0-4154-b7d8-be1907166ad7}</destination>
 		</relationship>
