@@ -130,7 +130,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0798e9cc-ff9f-4fc3-9210-9bdf567aefd6}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>CrumblingRocks</value>
 		</property>
 		<relationship name="automators">
 			<destination>{dc961149-bbbf-4db5-8e49-d866714fb8e7}</destination>

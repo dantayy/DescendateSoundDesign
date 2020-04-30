@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{6fb89b42-d50f-44c1-b30f-5e4b68863606}">
+		<property name="name">
+			<value>IdleChatter</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cc9ba13e-a437-44e2-a920-690aa882651f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6c058fe2-64c1-4935-a15b-4cdfd683ed31}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6c058fe2-64c1-4935-a15b-4cdfd683ed31}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
