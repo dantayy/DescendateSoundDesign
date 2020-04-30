@@ -5,7 +5,7 @@
 			<value>OverworldAmbiance</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7de39389-e4f1-42b6-9591-bb5a72561abd}</destination>
@@ -175,6 +175,9 @@
 		<property name="length">
 			<value>0.75</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{3a756a46-6705-4c07-94da-0ec337b67ab4}</destination>
 		</relationship>
@@ -208,6 +211,9 @@
 		<property name="length">
 			<value>0.75</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{cfc2b8de-4ec9-4d36-8748-ccb24c7fdbe7}</destination>
 		</relationship>
@@ -232,7 +238,6 @@
 	<object class="MixerBusEffectChain" id="{e93fdd2a-cd18-4ba5-92f5-e1bdf077f401}">
 		<relationship name="effects">
 			<destination>{63f13124-6631-4602-9682-430c1446d618}</destination>
-			<destination>{ab8ff63e-0238-480d-b17d-566834260c28}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1dadea48-bd2a-4786-8e8d-c33a88089e63}" />
@@ -280,7 +285,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{2576a260-f7de-4042-9d20-a3195972ec78}" />
 	<object class="MixerBusFader" id="{63f13124-6631-4602-9682-430c1446d618}" />
-	<object class="SpatialiserEffect" id="{ab8ff63e-0238-480d-b17d-566834260c28}" />
 	<object class="AutomationCurve" id="{be97b10f-6ff8-4e32-b663-c331bd18529d}">
 		<relationship name="parameter">
 			<destination>{4eb35980-bc17-46bc-af12-6e6fe94196e1}</destination>

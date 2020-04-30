@@ -5,7 +5,7 @@
 			<value>BlacksmithAmbiance</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7de39389-e4f1-42b6-9591-bb5a72561abd}</destination>
@@ -233,6 +233,9 @@
 		<property name="length">
 			<value>0.75</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{3a756a46-6705-4c07-94da-0ec337b67ab4}</destination>
 		</relationship>
@@ -266,6 +269,9 @@
 		<property name="length">
 			<value>0.75000000000000022</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{cfc2b8de-4ec9-4d36-8748-ccb24c7fdbe7}</destination>
 		</relationship>
@@ -290,7 +296,6 @@
 	<object class="MixerBusEffectChain" id="{a13ab911-473b-42b1-999c-9cbfe7e7e5bb}">
 		<relationship name="effects">
 			<destination>{55e8c896-73d9-4ac9-b9e5-8ad690f21f45}</destination>
-			<destination>{6f0d0ae3-895a-4219-91f2-676530fc504b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{37adca3f-11f3-4650-84c8-7ab7c7b66047}" />
@@ -357,7 +362,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{e9726423-b148-47a7-bdb3-066ef3ed7f19}" />
 	<object class="MixerBusFader" id="{55e8c896-73d9-4ac9-b9e5-8ad690f21f45}" />
-	<object class="SpatialiserEffect" id="{6f0d0ae3-895a-4219-91f2-676530fc504b}" />
 	<object class="AutomationCurve" id="{949591e2-d86f-4fa5-b76a-2963f0023622}">
 		<relationship name="parameter">
 			<destination>{4eb35980-bc17-46bc-af12-6e6fe94196e1}</destination>

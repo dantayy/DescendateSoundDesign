@@ -202,6 +202,12 @@
 		<property name="length">
 			<value>13.333903376436766</value>
 		</property>
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>50</value>
+		</property>
 		<property name="name">
 			<value>ChorusLoop</value>
 		</property>
@@ -218,6 +224,12 @@
 		</property>
 		<property name="length">
 			<value>13.333000000000002</value>
+		</property>
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>50.5</value>
 		</property>
 		<property name="name">
 			<value>VerseLoop</value>

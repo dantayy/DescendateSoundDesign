@@ -5,7 +5,7 @@
 			<value>BattleAmbiance</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7de39389-e4f1-42b6-9591-bb5a72561abd}</destination>
@@ -148,7 +148,6 @@
 	<object class="MixerBusEffectChain" id="{cc3639ec-ceaa-4bd8-ac40-759be6d4adf9}">
 		<relationship name="effects">
 			<destination>{ed4202fa-52c0-47ff-899b-d9e296befba7}</destination>
-			<destination>{6ac11fe0-372e-401c-98b2-89052d10380e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{481f9566-bf28-4259-b046-a7823d18d60b}" />
@@ -189,7 +188,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{e3ace034-77a4-4b2e-9de3-8147a2b0da15}" />
 	<object class="MixerBusFader" id="{ed4202fa-52c0-47ff-899b-d9e296befba7}" />
-	<object class="SpatialiserEffect" id="{6ac11fe0-372e-401c-98b2-89052d10380e}" />
 	<object class="SingleSound" id="{f7b19344-c027-43f6-8fb2-90224de0376f}">
 		<relationship name="audioFile">
 			<destination>{ba94b778-39a1-4aef-9fe5-f74a5e185e9e}</destination>

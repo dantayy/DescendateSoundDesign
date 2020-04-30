@@ -5,7 +5,7 @@
 			<value>TavernAmbiance</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7de39389-e4f1-42b6-9591-bb5a72561abd}</destination>
@@ -175,6 +175,9 @@
 		<property name="length">
 			<value>0.75</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{3a756a46-6705-4c07-94da-0ec337b67ab4}</destination>
 		</relationship>
@@ -208,6 +211,9 @@
 		<property name="length">
 			<value>0.75</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{cfc2b8de-4ec9-4d36-8748-ccb24c7fdbe7}</destination>
 		</relationship>
@@ -232,7 +238,6 @@
 	<object class="MixerBusEffectChain" id="{e134eb23-1f87-4956-80f0-881bfc12c3a0}">
 		<relationship name="effects">
 			<destination>{3830949a-252c-4391-87dc-2d027485fc18}</destination>
-			<destination>{1dc4eb2d-3b1f-4fc4-9e8b-ce8dc8eb2a7c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{74c3d3ea-4f7f-4e4d-a5a3-91a08dd7330c}" />
@@ -280,7 +285,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{d76b87f6-7c67-435c-87ab-d8a097ecfae2}" />
 	<object class="MixerBusFader" id="{3830949a-252c-4391-87dc-2d027485fc18}" />
-	<object class="SpatialiserEffect" id="{1dc4eb2d-3b1f-4fc4-9e8b-ce8dc8eb2a7c}" />
 	<object class="AutomationCurve" id="{a9f5ac9d-f244-4d6c-b875-0a14776b4601}">
 		<relationship name="parameter">
 			<destination>{4eb35980-bc17-46bc-af12-6e6fe94196e1}</destination>

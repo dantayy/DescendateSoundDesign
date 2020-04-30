@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{2a92691e-4a23-4e9e-8427-dbfb84512c10}">
 		<property name="name">
-			<value>InnAmbiance</value>
+			<value>GuildhallAmbiance</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7de39389-e4f1-42b6-9591-bb5a72561abd}</destination>
@@ -175,6 +175,9 @@
 		<property name="length">
 			<value>0.75</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{3a756a46-6705-4c07-94da-0ec337b67ab4}</destination>
 		</relationship>
@@ -208,6 +211,9 @@
 		<property name="length">
 			<value>0.75</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{cfc2b8de-4ec9-4d36-8748-ccb24c7fdbe7}</destination>
 		</relationship>
@@ -232,7 +238,6 @@
 	<object class="MixerBusEffectChain" id="{7cba1308-d5b5-4fc7-a1bb-97daa3389131}">
 		<relationship name="effects">
 			<destination>{bf9e3257-101d-4bdc-b3e0-66ab94737a26}</destination>
-			<destination>{56cad940-bdf1-42c0-bff9-01d6c26440b0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{214f52a4-6aae-4bae-82a3-7afbee30d49c}" />
@@ -280,7 +285,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{920960ea-d104-448c-abb2-1ac61e95f887}" />
 	<object class="MixerBusFader" id="{bf9e3257-101d-4bdc-b3e0-66ab94737a26}" />
-	<object class="SpatialiserEffect" id="{56cad940-bdf1-42c0-bff9-01d6c26440b0}" />
 	<object class="AutomationCurve" id="{2392be1f-32d0-4aaf-8b53-ccc3a72795e7}">
 		<relationship name="parameter">
 			<destination>{4eb35980-bc17-46bc-af12-6e6fe94196e1}</destination>
